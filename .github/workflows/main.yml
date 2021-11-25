@@ -14,7 +14,7 @@ jobs:
       with:
         project_name: "Juice-Shop"
       env:
-        # Visit https://soos.io to get the required tokens to leverage SOOS scanning/analysis services //
+        # Visit https://soos.io to get the required tokens to leverage SOOS scanning/analysis services.
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
         SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
         
