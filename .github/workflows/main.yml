@@ -13,6 +13,8 @@ jobs:
       uses: soos-io/soos-sca-github-action@v1
       with:
         project_name: "Juice-Shop"
+        base_uri: "https://dev-api.soos.io/api/"
+        debug_print_variables: true
       env:
         # Visit https://soos.io to get the required tokens to leverage SOOS scanning/analysis services.
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
