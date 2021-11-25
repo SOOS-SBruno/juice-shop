@@ -18,6 +18,7 @@ jobs:
       env:
         # Visit https://soos.io to get the required tokens to leverage SOOS scanning/analysis services.
         #just another comment
+        #las comment
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
         SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
         
